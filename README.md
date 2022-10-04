@@ -14,18 +14,7 @@
     <body>
         <!--ebb: Here inside the <body> element is where the code for the visible display of a website appears. -->
         <h1>introDH-Hub Model Website</h1>
-        <!-- ebb: I've commented out some code for a super simple site navigation menu. 
-            For the links to work, we'll need a <p> element to wrap around the contents:
-        <nav class="menuA">
-            <p>
-                <a href="index.html">Home</a> | <a href="starter.html">Starting HTML Example</a> |
-                    <a href="resume.html">Resume</a> | <a href="gallery.html">Gallery</a> | Course
-                Posts 
-            </p>
-        </nav>-->
-        <!--ebb: Site Navigation Menu Code B: You can decide if you want this to be a horizontal or vertical arrangement, and make the bullets disappear using CSS.
-     See https://www.w3schools.com/css/css_navbar.asp
-      -->
+      
         <nav>
             <img class="photo" src="images/littleNewt.jpg" alt="pet Japanese firebelly newt" />
             <ul class="menuB">
