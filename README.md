@@ -5,17 +5,8 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="style.css" />
-
-        <!--2021-02-02 ebb: The code inside the <head> element is not for display in the web browser, but it holds important information about the website's contents.
-    The text inside the <title> element appears in the top tab of a web browser. The meta elements give instructions for how the browser window will behave, 
-    and the <link> element pulls in a CSS stylesheet from another (external) file you'll save in your website directory. 
-    -->
-    </head>
-    <body>
-        <!--ebb: Here inside the <body> element is where the code for the visible display of a website appears. -->
-        <h1>introDH-Hub Model Website</h1>
-      
-        <nav>
+       
+        <template>
             <img class="photo" src="images/littleNewt.jpg" alt="pet Japanese firebelly newt" />
             <ul class="menuB">
                 <li><a href="index.html">Home</a></li>
@@ -23,7 +14,7 @@
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="essays.html">DIGIT 100 Essays</a></li>
             </ul>
-        </nav>
+        </template>
         
       <section>  
           <h1>Experimenting with HTML links: Absolute and Relative links</h1>
@@ -46,16 +37,8 @@
       </section>
         
         <section>
-            <!-- ebb: You can make a <section> or a <div> element just to organize different parts of the page.
-      The <section> element should always have a heading element inside <h1>, <h2>, etc. to identify what's here.
-     
-     Using section elements and numbering your heading elements in order helps make your site maximally accessible to people who 
-      read websites with screen readers, braille browsers, and other devices that don't rely exclusively on using your eyes.
-      -->
-            <h2>Lists: <dfn>ordered</dfn> and <dfn>unordered</dfn> </h2>
-            <p>The heading above is smaller than the first one on this page, because I selected an <code>h2</code> element for a second-level heading.</p>
-            <!-- ebb: Look up what a <dfn> element is for: https://www.w3schools.com/tags/tag_dfn.asp -->
-            <!--ebb: You can write CSS code to change the *way* this is ordered, from numbers to letters or symbols, for example. -->
+            
+            
             <ol>
                 <li>dawn</li>
                 <li>afternoon</li>
@@ -96,18 +79,14 @@
             website. I link that CSS stylesheet to my HTML files up in the <code>head</code> element. <em>Can you find the CSS <code>link</code> line in this file?</em></p>
             
             <figure class="photoGallery">
-                <img class="photo" src="wintergreen_media.jpg" alt="Part of my Background picture for this website"/>
+                <img class="photo" src="wintergreen_media.jpg" alt="Part of my Background picture for this website" />
                 <figcaption>Behind the scenes with Wintergreen Media at a Behrend event.</figcaption>
             </figure>
             <figure>
-                <img src="behind_the_scenes.jpg" alt="Part of my Background picture for this website"/>
+                <img src="behind_the_scenes.jpg" alt="Part of my Background picture for this website" />
                 <figcaption>Behind the scenes for my film Blissful in the green room.</figcaption>
             </figure>
-            <h3>Styling</h3>
-                <head>
-                    <title>My Portfolio Site</title>
-                    <link rel="stylesheet" type="text/css" href="style.css"/>
-                </head>  
+               
         </section>
     </body>
 </html>
