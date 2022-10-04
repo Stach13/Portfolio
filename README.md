@@ -107,16 +107,18 @@
             website. I link that CSS stylesheet to my HTML files up in the <code>head</code> element. <em>Can you find the CSS <code>link</code> line in this file?</em></p>
             
             <figure class="photoGallery">
-                <img class="photo" src="images/littleNewt.jpg" alt="pet Japanese firebelly newt" />
-                <figcaption>Photo of my pet firebelly newt.</figcaption>
+                <img class="photo" src="wintergreen_media.jpg" alt="Part of my Background picture for this website"/>
+                <figcaption>Behind the scenes with Wintergreen Media at a Behrend event.</figcaption>
             </figure>
             <figure>
-                <img src="images/cockatoo.jpg" alt="Dr. B's firebelly newt image" />
-                <figcaption>Image of a cockatoo from Australia or New Zealand. Source:<a
-                    href="http://nzbirdsonline.org.nz/species/sulphur-crested-cockatoo"> New Zealand
-                    Birds Online</a>. </figcaption>
+                <img src="behind_the_scenes.jpg" alt="Part of my Background picture for this website"/>
+                <figcaption>Behind the scenes for my film Blissful in the green room.</figcaption>
             </figure>
-               
+            <h3>Styling</h3>
+                <head>
+                    <title>My Portfolio Site</title>
+                    <link rel="stylesheet" type="text/css" href="style.css"/>
+                </head>  
         </section>
     </body>
 </html>
