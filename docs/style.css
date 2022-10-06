@@ -34,5 +34,7 @@ img[src="behind_the_scenes.jpg"] {
 img[src="Documentary.jpg"] {
     width: 400px;
     height: 250px;
-    
+    box-shadow: 5px 10px; 
+    display: inline-block;
+    margin: 25px 10px; 
 }
