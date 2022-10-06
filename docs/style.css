@@ -1,0 +1,30 @@
+body {
+    background-color: teal;
+}
+
+h2 {
+    color: Black;
+    text-align: center;    
+}
+
+li {
+    font-family: Times New Roman;
+    color: Black;   
+}
+
+img[src="wintergreen_media.jpg"] {
+    width: 250px;
+    height: 500px;    
+}
+
+img[src="behind_the_scenes.jpg"] {
+    width: 250px;
+    height: 500px;
+
+}
+
+img[src="Documentary.jpg"] {
+    width: 400px;
+    height: 250px;
+}
+
