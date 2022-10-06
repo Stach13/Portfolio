@@ -9,7 +9,9 @@ h2 {
 
 li {
     font-family: Times New Roman;
-    color: Black;   
+    color: Black; 
+    font-size: 18px;
+    padding: 5px;
 }
 
 img[src="wintergreen_media.jpg"] {
@@ -20,7 +22,6 @@ img[src="wintergreen_media.jpg"] {
 img[src="behind_the_scenes.jpg"] {
     width: 250px;
     height: 500px;
-
 }
 
 img[src="Documentary.jpg"] {
