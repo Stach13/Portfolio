@@ -6,18 +6,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="style.css" />
         <link rel="stylesheet" type="text/css" href="stachfilms.css" />
-       
-        <template>
-            <img class="photo" src="images/littleNewt.jpg" alt="pet Japanese firebelly newt" />
-            <ul class="menuB">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-            </ul>
-        </template>
+    </head>
+ <!-- 2022-10-07 ebb: I made a few corrections so your HTML is valid. 
+    1. Your <head> element was wrapping around the whole document, so that was a problem. I just moved the end tag back.
+    2. Your <template> element was not inside the body element. I'm not sure why you're using <template> here: it's for specialized
+    coding usually to work with JavaScript. I'd replace it with <nav> since that better describes the content (your navigation bar).
+    3. 
+     
+ -->     
         
      <body>
-       
+         <template><!-- ebb: I'd change this element from <template> to <nav>, since it's a container for a navigation menu.-->
+             <img class="photo" src="images/littleNewt.jpg" alt="pet Japanese firebelly newt" />
+             <ul class="menuB">
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="resume.html">Resume</a></li>
+                 <li><a href="gallery.html">Gallery</a></li>
+             </ul>
+         </template>
         <section>
             <h2>Home</h2>
             <ul>
@@ -40,11 +46,14 @@
                 <figcaption><i>My film Blissful in the green screen room.</i></figcaption>
             </figure>
             <figure>
-                <img src="Documentary.jpg" alt="Picture captured by Tinseltown"/>
+                <img src="Documentary.JPG" alt="Picture captured by Tinseltown"/>
+                <!-- ebb: All I did here was change the file extension to all caps, 
+                    since that is how it is named and stored in your GitHub repo.
+                    No need to change anything else! 
+                    See if this works on GitHub Pages. -->
                 <figcaption><i>Picture I took for a Documentary I made called "Cinema Endangered"</i></figcaption>
             </figure>
                
         </section>
       </body>
-   </head>
 </html>
