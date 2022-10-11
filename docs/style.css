@@ -4,22 +4,27 @@ body {
 
 h2 {
     color: Black;
-    text-align: center;    
+    text-align: center; 
+    padding: 20px;
 }
 
-li {
-    font-family: Times New Roman;
-    color: Black; 
+p.inset {
+    border-style: inset;
+    border-color: #5A5A5A;
+    background-color: grey;
+    display: inline;
+    text-align: center;
     font-size: 18px;
-    padding: 5px;
+    padding: 10px;
+    word-spacing: 25px;
+    padding-right: 1240px;
 }
-
 
 img[src="wintergreen_media.jpg"] {
     width: 250px;
     height: 500px;
     box-shadow: 5px 10px; 
-    display: inline-block;
+    display: inline;
     margin: 25px 10px; 
 }
 
@@ -27,7 +32,7 @@ img[src="behind_the_scenes.jpg"] {
     width: 250px;
     height: 500px;
     box-shadow: 5px 10px; 
-    display: inline-block;
+    display: inline;
     margin: 25px 10px; 
 }
 
@@ -35,6 +40,6 @@ img[src="Documentary.jpg"] {
     width: 400px;
     height: 250px;
     box-shadow: 5px 10px; 
-    display: inline-block;
+    display: inline;
     margin: 25px 10px; 
 }
