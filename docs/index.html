@@ -4,7 +4,6 @@
         <title>My Portfolio</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" type="text/css" href="style.css" />
         <link rel="stylesheet" type="text/css" href="stachfilms.css" />
     </head>
  <!-- 2022-10-07 ebb: I made a few corrections so your HTML is valid. 
@@ -16,35 +15,30 @@
  -->     
         
      <body>
-         <template><!-- ebb: I'd change this element from <template> to <nav>, since it's a container for a navigation menu.-->
-             <img class="photo" src="images/littleNewt.jpg" alt="pet Japanese firebelly newt" />
-             <ul class="menuB">
-                 <li><a href="index.html">Home</a></li>
-                 <li><a href="resume.html">Resume</a></li>
-                 <li><a href="gallery.html">Gallery</a></li>
-             </ul>
-         </template>
-        <section>
+        <nav>
+            <img class="photo" src="images/littleNewt.jpg" alt="pet Japanese firebelly newt" />
             <h2>Home</h2>
-            <ul>
-                <li>Resume</li>
-                <li><a href="Stachfilms.html">Stachfilms</a></li>
-                <li>Scripts</li>
-            </ul>
-           
-        </section>
+            <p>
+                <a href="resume.html">Resume</a>  
+                <a href="Stachfilms.html">Stachfilms</a></li>
+                <a>Scripts</a>
+            </p>
+        </nav>
        
         <section>
             <h2>Images</h2>
+
             
             <figure class="photoGallery">
                 <img class="photo" src="wintergreen_media.jpg" alt="McGarvey Commons in RUB, Behind the Scenes" />                    
                 <figcaption><i>Wintergreen Media at a Behrend Athletics Banquet in 2020.</i></figcaption>
             </figure>
-            <figure>
+            
+             <figure>
                 <img src="behind_the_scenes.jpg" alt="Picture in Kochel 69, Behind the Scenes" />
                 <figcaption><i>My film Blissful in the green screen room.</i></figcaption>
             </figure>
+        
             <figure>
                 <img src="Documentary.JPG" alt="Picture captured by Tinseltown"/>
                 <!-- ebb: All I did here was change the file extension to all caps, 
