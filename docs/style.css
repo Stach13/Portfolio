@@ -17,29 +17,31 @@ p.inset {
     font-size: 18px;
     padding: 10px;
     word-spacing: 25px;
-    padding-right: 1240px;
+    padding-right: 1200px;
+}
+
+
+section.gallery {
+    display: flex;
 }
 
 img[src="wintergreen_media.jpg"] {
-    width: 250px;
-    height: 500px;
+    max-width: 250px;
+    width: 100%; 
     box-shadow: 5px 10px; 
-    display: inline;
     margin: 25px 10px; 
 }
 
 img[src="behind_the_scenes.jpg"] {
-    width: 250px;
-    height: 500px;
+    max-width: 250px;
+    width: 100%;
     box-shadow: 5px 10px; 
-    display: inline;
     margin: 25px 10px; 
 }
 
-img[src="Documentary.jpg"] {
-    width: 400px;
-    height: 250px;
+img[src="Documentary.JPG"] {
+    max-width: 400px;
+    width: 125%;
     box-shadow: 5px 10px; 
-    display: inline;
     margin: 25px 10px; 
 }
