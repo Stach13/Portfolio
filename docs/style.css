@@ -8,18 +8,20 @@ h2 {
     padding: 20px;
 }
 
-p.inset {
-    border-style: inset;
-    border-color: #5A5A5A;
-    background-color: grey;
+nav {
+    width: 80%;
+    border-color: #5A5A5A;   
     display: inline;
     text-align: center;
     font-size: 18px;
     padding: 10px;
-    word-spacing: 25px;
-    padding-right: 1200px;
+    word-spacing: 25px;  
 }
 
+p.inset { 
+    background-color: grey;
+    border-style: inset;
+}
 
 section.gallery {
     display: flex;

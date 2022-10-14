@@ -8,5 +8,25 @@ h1 {
     Background-color: Black;
     color: #dbd5d1;
     padding-top: 15px;
+}
+
+section.flex {
+    display: flex;
+}
+
+section.flex div { flex:1;
+    display:flex;
+    flex-direction: column;
+
+}
+
+section.flex div iframe {
     
+
+}
+
+section.flex div p{
+
+    width:90%;
+    font-size: smaller ;
 }
