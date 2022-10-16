@@ -2,25 +2,30 @@ body {
     background-color: teal;
 }
 
-h2 {
-    color: Black;
-    text-align: center; 
-    padding: 20px;
+h1 {
+    border-bottom-style: solid;
+    border-color: white;
+    Background-color: Black;
+    color: #dbd5d1;
+    padding-top: 25px;
 }
 
-nav {
+nav { 
     width: 80%;
-    border-color: #5A5A5A;   
     display: inline;
     text-align: center;
     font-size: 18px;
-    padding: 10px;
-    word-spacing: 25px;  
+    padding-bottom: 10px;
+    word-spacing: 25px;
 }
-
+h2 {
+    text-align: center;
+}
 p.inset { 
     background-color: grey;
+    border-color: #D3D3D3;
     border-style: inset;
+    height: 25px;
 }
 
 section.gallery {

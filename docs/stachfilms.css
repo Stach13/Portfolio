@@ -7,26 +7,44 @@ h1 {
     border-color: white;
     Background-color: Black;
     color: #dbd5d1;
-    padding-top: 15px;
+    padding-top: 25px;
 }
 
+nav { 
+    width: 80%;
+    display: inline;
+    text-align: center;
+    font-size: 18px;
+    word-spacing: 25px;
+    padding-bottom: 20px;
+}
+
+p.inset { 
+    background-color: grey;
+    border-color: #D3D3D3;
+    border-style: inset;
+    height: 25px;
+}
+
+h2 {
+    font-family: agency fb;
+    text-align: center;
+    padding-top: 30px;
+    
+}
 section.flex {
     display: flex;
 }
 
-section.flex div { flex:1;
+section.flex div { 
+    flex:1;
     display:flex;
     flex-direction: column;
 
 }
 
-section.flex div iframe {
-    
-
-}
-
-section.flex div p{
+section.flex div p {
 
     width:90%;
-    font-size: smaller ;
+    font-size: smaller;
 }

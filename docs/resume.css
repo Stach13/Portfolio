@@ -7,10 +7,28 @@ h1 {
     border-color: white;
     Background-color: Black;
     color: #dbd5d1;
-    padding-top: 15px;
+    padding-top: 25px;
 }
 
+nav { 
+    width: 80%;
+    display: inline;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 10px;
+    word-spacing: 25px;
+}
+
+p.inset { 
+    background-color: grey;
+    border-color: #D3D3D3;
+    border-style: inset;
+    height: 25px;
+    
+}
 iframe {
     width: 50%;
     height: 1000px; 
+    padding-top: 30px;
+    border: none;
 }
