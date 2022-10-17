@@ -1,6 +1,7 @@
 body {
     background-image: url("background.jpg");
     background-attachment: fixed;
+    color: white;
 }
 
 h1 {
@@ -26,6 +27,3 @@ p.inset {
     height: 25px;
 }
 
-p {
-    color: white;
-}
