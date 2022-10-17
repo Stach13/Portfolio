@@ -27,3 +27,9 @@ p.inset {
     height: 25px;
 }
 
+h3 {
+    padding: 25px;
+    font-family: agency fb;
+    text-align: center;
+    font-size: 25px;
+}
