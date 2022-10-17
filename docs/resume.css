@@ -1,11 +1,11 @@
 body {
-    background-color: teal;
+    background-image: url("background.jpg");
+    background-attachment: fixed;
 }
 
 h1 {
     border-bottom-style: solid;
     border-color: white;
-    Background-color: Black;
     color: #dbd5d1;
     padding-top: 25px;
 }

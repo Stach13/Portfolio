@@ -1,11 +1,11 @@
 body {
-    background-color: teal;
+    background-image: url("background.jpg");
+    background-attachment: fixed;
 }
 
 h1 {
     border-bottom-style: solid;
     border-color: white;
-    Background-color: Black;
     color: #dbd5d1;
     padding-top: 25px;
 }
@@ -29,9 +29,11 @@ p.inset {
 h2 {
     font-family: agency fb;
     text-align: center;
-    padding-top: 30px;
-    
+    padding: 30px;
+    color: white;
 }
+
+
 section.flex {
     display: flex;
 }
@@ -47,4 +49,9 @@ section.flex div p {
 
     width:90%;
     font-size: smaller;
+    color: white;
+}
+
+p {
+    color: white;
 }
