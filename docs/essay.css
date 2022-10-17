@@ -1,0 +1,27 @@
+body {
+    background-image: url("background.jpg");
+    background-attachment: fixed;
+}
+
+h1 {
+    border-bottom-style: solid;
+    border-color: white;
+    color: white;
+    padding-top: 25px;
+}
+
+nav { 
+    width: 80%;
+    display: inline;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 10px;
+    word-spacing: 25px;
+}
+
+p.inset { 
+    background-color: grey;
+    border-color: #D3D3D3;
+    border-style: inset;
+    height: 25px;
+}
