@@ -25,3 +25,7 @@ p.inset {
     border-style: inset;
     height: 25px;
 }
+
+p {
+    color: white;
+}
