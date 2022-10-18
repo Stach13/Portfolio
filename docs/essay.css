@@ -1,6 +1,7 @@
 body {
     background-image: url("background.jpg");
     background-attachment: fixed;
+    background-position: right;
     color: white;
 }
 
@@ -32,4 +33,9 @@ h3 {
     font-family: agency fb;
     text-align: center;
     font-size: 25px;
+}
+
+p.space {
+    margin-right: 40px;
+    margin-left: 40px;
 }
