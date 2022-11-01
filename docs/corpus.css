@@ -5,7 +5,7 @@ body {
     color: white;
 }
 
-h1 {
+h2 {
     border-bottom-style: solid;
     border-color: white;
     color: white;
@@ -26,16 +26,4 @@ p.inset {
     border-color: #D3D3D3;
     border-style: inset;
     height: 25px;
-}
-
-h3 {
-    padding: 25px;
-    font-family: "agency fb";
-    text-align: center;
-    font-size: 25px;
-}
-
-p.space {
-    margin-right: 40px;
-    margin-left: 40px;
 }
