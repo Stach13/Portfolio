@@ -38,16 +38,32 @@ h2 {
     display: flex;
     margin-top: 50px;
     margin-left: 15px;
-    
+    flex:3;
+    display:flex;
+    flex-direction: column;
 }
 
+section.one {
+    display: flex;
+}
+
+section.two {
+    display: flex;
+    padding-left: 200px;
+}
+
+section.three {
+    width: 150px;
+    
+
+}
 img {
     border-radius: 10%;
 }
 
 figure {
     text-align: center;
-    color: grey;
+    color: #87CEEB;
 }
 
 p.box { 
