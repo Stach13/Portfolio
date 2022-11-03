@@ -34,31 +34,20 @@ h2 {
     padding: 25px;
 }
 
-.display {
-    display: flex;
+.display { 
     margin-top: 50px;
     margin-left: 15px;
-    flex:3;
-    display:flex;
-    flex-direction: column;
 }
 
-section.one {
+section.picture-flex {
     display: flex;
 }
 
-section.two {
-    display: flex;
-    padding-left: 200px;
-}
 
-section.three {
-    width: 150px;
-    
-
-}
 img {
     border-radius: 10%;
+    width: 300px;
+    height: 350px;
 }
 
 figure {
@@ -66,8 +55,13 @@ figure {
     color: #87CEEB;
 }
 
+img.wide {
+    width: 500px;
+    height: 400px;
+}
+
 p.box { 
     border: white dashed;
-    width: 150px;
+    width: 200px;
     padding: 35px;
 }
