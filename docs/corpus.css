@@ -43,6 +43,7 @@ h2 {
 section.picture-flex {
     display: flex;
     padding-bottom: 100px;
+    padding-right: 25px;
 }
 
 
