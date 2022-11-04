@@ -46,7 +46,6 @@ section.picture-flex {
     padding-right: 25px;
 }
 
-
 img {
     border-radius: 10%;
     width: 300px;
@@ -67,4 +66,8 @@ p.box {
     border: white dashed;
     width: 200px;
     padding: 35px;
+}
+
+iframe {
+    border-radius: 10%;
 }
