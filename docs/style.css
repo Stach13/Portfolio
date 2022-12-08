@@ -60,3 +60,9 @@ img[src="Documentary.JPG"] {
 figcaption {
     color: white;
 }
+
+footer {
+    border-top-style: solid;
+    color: white;
+    padding: 15px;
+    }
