@@ -9,6 +9,7 @@ h1 {
     border-color: white;
     color: #dbd5d1;
     padding-top: 25px;
+    font-family: "Agency fb";
 }
 
 nav { 
@@ -27,13 +28,17 @@ p.inset {
     height: 25px;
 }
 
+div.body {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 h2 {
     font-family: "Agency fb";
     text-align: center;
     padding: 30px;
     color: white;
 }
-
 
 section.flex {
     display: flex;
@@ -47,7 +52,6 @@ section.flex div {
 }
 
 section.flex div p {
-
     width:90%;
     font-size: smaller;
     color: white;
