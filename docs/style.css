@@ -9,6 +9,7 @@ h1 {
     border-color: white;
     color: white;
     padding-top: 25px;
+    font-family: "agency fb";
 }
 
 nav { 
@@ -25,6 +26,7 @@ h2 {
     font-family: "agency fb";
     padding-top: 30px;
 }
+
 p.inset { 
     background-color: grey;
     border-color: #D3D3D3;

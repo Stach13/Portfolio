@@ -11,14 +11,13 @@ h1 {
     padding-top: 25px;
     font-family: "Agency fb";
 }
-
-nav { 
+nav.inset { 
     width: 80%;
-    display: inline;
     text-align: center;
     font-size: 18px;
-    word-spacing: 25px;
     padding-bottom: 20px;
+    display: inline;
+    word-spacing: 20px;
 }
 
 p.inset { 
