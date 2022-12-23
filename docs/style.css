@@ -38,24 +38,31 @@ section.gallery {
     display: flex;
 }
 
+img.insta {
+    max-width: 250px;
+    width: 100%;
+    box-shadow: 5px 10px grey;
+    margin: 25px 10px;
+}
+
 img[src="wintergreen_media.jpg"] {
     max-width: 250px;
     width: 100%; 
-    box-shadow: 5px 10px; 
+    box-shadow: 5px 10px grey; 
     margin: 25px 10px; 
 }
 
 img[src="behind_the_scenes.jpg"] {
     max-width: 250px;
     width: 100%;
-    box-shadow: 5px 10px; 
+    box-shadow: 5px 10px grey; 
     margin: 25px 10px; 
 }
 
 img[src="Documentary.JPG"] {
     max-width: 400px;
     width: 125%;
-    box-shadow: 5px 10px; 
+    box-shadow: 5px 10px grey; 
     margin: 25px 10px; 
 }
 
