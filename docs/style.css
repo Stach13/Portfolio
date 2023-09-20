@@ -59,15 +59,23 @@ img[src="behind_the_scenes.jpg"] {
     margin: 25px 10px; 
 }
 
-img[src="Documentary.JPG"] {
+img[src="images/filming-turtle.jpg"] {
     max-width: 400px;
     width: 125%;
     box-shadow: 5px 10px grey; 
     margin: 25px 10px; 
 }
+img[src="images/lynne_beaty_BTS.jpg"]{
+    max-width: 400px;
+    width: 150%;
+    height: 60%;
+    box-shadow: 5px 10px grey;
+    margin: 25px 10px;
+}
 
 figcaption {
     color: white;
+    font-family: "Agency fb";
 }
 
 footer {
