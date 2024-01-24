@@ -4,6 +4,10 @@ body {
     background-position: right;
 }
 
+.margin {
+    margin-left: 2%;
+}
+
 h1 {
     border-bottom-style: solid;
     border-color: white;
