@@ -48,10 +48,41 @@ div.body {
     margin-right: 50px;
 }
 
+.web {
+    float: left;
+    word-spacing: 8px;
+    width: 500px;
+    max-width: 1000px;
+    margin-right: 50px;
+}
+
+.web-box {
+    border-radius: 25px;
+    background-color: #d6b575;
+    width: 500px;
+    max-width: 1000px;
+    height: 400px;
+    margin-left: 60px;
+    margin-top: 50px;
+    padding: 80px;
+    display: flex;
+}
+
+.paragraph {
+    width: 400px;
+    max-width: 800px;
+    height: auto;
+}
+
+.spacy-img {
+    margin-left: 100px;
+}
+
+.spacey-pg {line-height: 25px;}
+
 h2 {
     text-align: center;
     padding: 50px;
-
 }
 
 section.flex {display: flex;}
