@@ -4,33 +4,43 @@
         <title>Home</title>
         <meta charset="UTF-8" />
         <link rel="stylesheet" type="text/css" href="portfolio.css"/>
+        <link rel="stylesheet" type="text/css" href="index.css"/>
         <link rel="shortcut icon" type="image/x-icon" href="Stachfilms%20Logo%20.png"/>
     </head>
  
     <body>
-    <div class="heading">
+    <div class="heading" id="top">
         <h1>Home</h1>
     </div>
 
     <nav class="nav">
         <ul>
-            <li><a href="index.html"><img alt="" src="images/icons/home.png" class="nav-icon"/>Home</a></li>
-            <li><a href="resume.html"><img alt="" src="images/icons/resume.png" class="nav-icon"/>Resume</a></li>
-            <li><a href="Stachfilms.html"><img alt="" src="images/icons/portfolio.png" class="nav-icon"/>Motion Portfolio</a></li>
-            <li><a href="projects.html"><img alt="" src="images/icons/websites.png" class="nav-icon"/>Web Projects</a></li>
+            <li class="nav-list"><a href="index.html"><img alt="" src="images/icons/home.png" class="nav-icon"/>Home</a></li>
+            <li class="nav-list"><a href="resume.html"><img alt="" src="images/icons/resume.png" class="nav-icon"/>Resume</a></li>
+            <li class="nav-list"><a href="Stachfilms.html"><img alt="" src="images/icons/portfolio.png" class="nav-icon"/>Motion Portfolio</a></li>
+            <li class="nav-list"><a href="projects.html"><img alt="" src="images/icons/websites.png" class="nav-icon"/>Web Projects</a></li>
         </ul>
     </nav>
+    <div class="home-body">
+        <div class="anchor-box">
+            <h3 class="page-links-header">Page Links</h3>
+            <ol>
+                <li class="anchor-list"><a href="#About-me">About Me</a></li>
+                <li class="anchor-list"><a href="#Gallery">Photo Gallery - Behind the Scenes</a></li>
+            </ol>
+        </div>
         <div class="about-me">
             <div>
-            <h2 class="web"><u>About Me</u></h2>
+            <h2 class="web"><a href="#top" id="About-me"><u>About Me</u></a></h2>
 
                 <p class="about-me-pg">Hello! My name is Noah, and this is my Web Portfolio. I'm a <u>passionate</u>, <u>determined</u>, and <u>charismatic</u> content creator, who likes turning visions
             into reality. I'm obsessed with any form of multimedia that contains motion, as well as still motion (like photography). I'm also skillful in many aspects of web development, and UX design. I'm looking forward to continue my
             path in video creation, motion graphics, animation, and other media. Hoping it will lead to greater and better things along the way!</p>
             </div>
         </div>
+    </div>
         <div>
-            <h2>Behind the Scenes</h2>
+            <h2><a href="#top" id="Gallery"><u>Behind the Scenes</u></a></h2>
             <section class="gallery">
                 <figure class="photoGallery">
                     <img class="photo" src="wintergreen_media.jpg"

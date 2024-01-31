@@ -1,0 +1,17 @@
+.anchor-box {
+    display: block;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-color: black;
+    width: 20%;
+    height: auto;
+}
+
+.page-links-header {
+    text-align: center;
+}
+
+.anchor-list {
+    margin-top: 20px;
+    margin-right: 10px;
+}
