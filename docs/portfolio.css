@@ -143,6 +143,7 @@ section.gallery {
 }
 
 img.insta {
+    transition: transform .5s;
     max-width: 250px;
     width: 100%;
     box-shadow: 5px 10px grey;
@@ -150,6 +151,7 @@ img.insta {
 }
 
 img[src="wintergreen_media.jpg"] {
+    transition: transform .5s;
     max-width: 250px;
     width: 100%;
     box-shadow: 5px 10px grey;
@@ -157,6 +159,7 @@ img[src="wintergreen_media.jpg"] {
 }
 
 img[src="behind_the_scenes.jpg"] {
+    transition: transform .5s;
     max-width: 250px;
     width: 100%;
     box-shadow: 5px 10px grey;
@@ -164,18 +167,25 @@ img[src="behind_the_scenes.jpg"] {
 }
 
 img[src="images/filming-turtle.jpg"] {
+    transition: transform .5s;
     max-width: 400px;
     width: 125%;
     box-shadow: 5px 10px grey;
     margin: 25px 10px;
 }
 img[src="images/lynne_beaty_BTS.jpg"]{
+    transition: transform .5s;
     max-width: 400px;
     width: 150%;
     height: 60%;
     box-shadow: 5px 10px grey;
     margin: 25px 10px;
 }
+
+img:hover{
+    transform: scale(1.8);
+}
+
 
 figcaption {
     font-family: "Segoe UI";
