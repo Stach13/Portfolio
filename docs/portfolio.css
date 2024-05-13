@@ -38,7 +38,15 @@ ul {
 
 .list-contact {
     display: inline;
-    margin: 20px;
+    margin-top: 20px;
+}
+
+.contacts {margin-left: 35%;}
+
+.linkedin {
+    display: inline;
+    margin-top: 26px;
+    margin-left: 10px;
 }
 
 button {
@@ -206,9 +214,9 @@ img[src="images/lynne_beaty_BTS.jpg"]{
     margin: 25px 10px;
 }
 
-img:hover{
-    transform: scale(1.8);
-}
+img.gallery:hover{transform: scale(1.8);}
+
+img.insta:hover {transform: scale(1.8);}
 
 
 figcaption {
