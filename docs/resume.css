@@ -10,6 +10,14 @@ body {
     margin-right: 5px;
 }
 
+.nav-list {
+    display: inline;
+    margin: 20px;
+    font-size: 15px;
+    color: black;
+    padding: 10px;
+}
+
 .heading {
     border-bottom: solid;
     margin-top: 100px;
@@ -21,6 +29,7 @@ ul {
     display: flex;
     margin: 0;
     border-bottom: solid;
+    padding: 10px;
 }
 
 li {
