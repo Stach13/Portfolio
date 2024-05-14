@@ -3,15 +3,31 @@
     border-bottom-style: solid;
     border-right-style: solid;
     border-color: black;
-    width: 20%;
-    height: auto;
+    width: 300px;
+    min-width: 300px;
+    height: 600px;
 }
 
-.page-links-header {
-    text-align: center;
-}
+.page-links-header {text-align: center;}
 
 .anchor-list {
-    margin-top: 20px;
+    margin-top: 30px;
     margin-right: 10px;
+}
+
+#photography {
+    margin-left: 30%;
+    margin-bottom: 5%;
+}
+
+.links-slideshow {display: flex;}
+
+.photo-slideshow {
+    margin-left: 200px;
+    display: flex;
+}
+
+.photo {
+    width: 75%;
+    height: 50%;
 }
