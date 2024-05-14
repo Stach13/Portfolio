@@ -30,4 +30,9 @@
 .photo {
     width: 75%;
     height: 50%;
+    transition: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    100% {opacity: 0}
 }

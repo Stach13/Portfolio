@@ -19,7 +19,7 @@ images[10] = 'images/album/rec-hall.JPG'
 function changeImg(){
     document.slide.src = images[i];
 
-    if (i < images.length){
+    if (i < images.length - 1){
         i++;
     } else {
         i = 0;
