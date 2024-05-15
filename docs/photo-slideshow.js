@@ -14,6 +14,7 @@ images[7] = 'images/album/koepka.jpg'
 images[8] = 'images/album/leaf.JPG'
 images[9] = 'images/album/mushroom2.JPG'
 images[10] = 'images/album/rec-hall.JPG'
+images[11] = 'images/album/press.jpg'
 
 
 function changeImg(){
