@@ -16,7 +16,9 @@
 }
 
 #photography {
-    margin-left: 45%;
+    margin-left: 53%;
+    margin-bottom: 8%;
+    margin-top: 5%;
 }
 
 .links-slideshow {display: flex;}
@@ -27,6 +29,6 @@
 }
 
 .photo {
-    width: 500px;
+    width: 620px;
     height: auto;
 }
