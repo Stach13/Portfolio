@@ -23,12 +23,11 @@
 
 .links-slideshow {display: flex;}
 
-.photo-slideshow {
-    margin-left: 200px;
-    display: flex;
-}
+.photo-slideshow {margin-left: 200px;}
 
 .photo {
     width: 620px;
     height: auto;
 }
+
+.caption {text-align: center;}
