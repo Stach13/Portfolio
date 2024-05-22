@@ -49,13 +49,13 @@ ul {
     margin-left: 10px;
 }
 
-button {
+.contact-me {
     border: none;
     padding: 10px;
     border-radius: 20px;
 }
 
-button:hover {
+.contact-me:hover {
     border: none;
     padding: 10px;
     border-radius: 20px;
