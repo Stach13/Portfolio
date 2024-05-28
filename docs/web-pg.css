@@ -12,10 +12,26 @@ body {
 
 .heading {
     border-bottom: solid;
-    margin-top: 100px;
+    display: flex;
+    margin-top: 0;
 }
 
-h1 {margin-left: 2%;}
+#first {
+    color: white;
+    background-color: black;
+    padding-top: 11.7%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    padding-right: .5%;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+#second {
+    margin-left: .5%;
+    padding-top: 10%;
+}
 
 .nav {
     display: flex;

@@ -12,14 +12,29 @@ body {
 
 .heading {
     border-bottom: solid;
-    margin-top: 100px;
+    display: flex;
+    margin-top: 0;
 }
 
-h1 {margin-left: 2%;}
+#first {
+    color: white;
+    background-color: black;
+    padding-top: 11.7%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    padding-right: 1%;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+#second {
+    margin-left: .7%;
+    padding-top: 10%;
+}
 
 .nav {
     display: flex;
-    margin: 0;
     border-bottom: solid;
 }
 
@@ -46,7 +61,6 @@ h1 {margin-left: 2%;}
 .titles:before {
     content: "";
     position: absolute;
-    background: black;
     background-image: url("images/allegheny-forest.jpg");
     background-size: 80%;
     background-position-y: -100px;
