@@ -178,8 +178,10 @@ div.body {
 .spacey-pg {line-height: 25px;}
 
 .about-me {
-    border-radius: 25px;
-    border: solid #d6b575 15px;
+    border-right: 2px solid black;
+    background-image: linear-gradient(to right, grey, #E9DCC9, #E9DCC9 75%);
+    line-height: 1.7;
+    padding: 2%;
     width: 600px;
     max-width: 1600px;
     height: auto;
@@ -190,7 +192,7 @@ div.body {
 
 .about-me-pg {
     margin-left: 10%;
-    width: 50%;
+    width: 80%;
     height: auto;
 }
 
@@ -235,21 +237,21 @@ section.flex div p {
 
 section.gallery {
     display: flex;
+    padding: 5%;
 }
 
 img.insta {
     transition: transform .5s;
     max-width: 250px;
     width: 100%;
-    box-shadow: 5px 10px grey;
     margin: 25px 10px;
 }
 
 img[src="wintergreen_media.jpg"] {
     transition: transform .5s;
+    float: right;
     max-width: 250px;
     width: 100%;
-    box-shadow: 5px 10px grey;
     margin: 25px 10px;
 }
 
@@ -257,7 +259,6 @@ img[src="behind_the_scenes.jpg"] {
     transition: transform .5s;
     max-width: 250px;
     width: 100%;
-    box-shadow: 5px 10px grey;
     margin: 25px 10px;
 }
 
@@ -265,7 +266,6 @@ img[src="images/filming-turtle.jpg"] {
     transition: transform .5s;
     max-width: 400px;
     width: 125%;
-    box-shadow: 5px 10px grey;
     margin: 25px 10px;
 }
 img[src="images/lynne_beaty_BTS.jpg"]{
@@ -273,7 +273,6 @@ img[src="images/lynne_beaty_BTS.jpg"]{
     max-width: 400px;
     width: 150%;
     height: 60%;
-    box-shadow: 5px 10px grey;
     margin: 25px 10px;
 }
 
@@ -281,13 +280,18 @@ img.gallery:hover{transform: scale(1.8);}
 
 img.insta:hover {transform: scale(1.8);}
 
+.scene-box {
+    border-left: 2px solid black;
+    padding: 2%;
+
+}
 
 figcaption {
     font-family: "Segoe UI";
+    text-align: center;
 }
 
 footer {
     border-top-style: solid;
     padding: 15px;
 }
-
