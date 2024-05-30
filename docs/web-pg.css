@@ -18,7 +18,10 @@ body {
 
 #first {
     color: white;
-    background-color: black;
+    background-image: url("images/background-imgs/StachFilms-logo.png");
+    background-size: 360%;
+    background-position-x: -50px;
+    background-repeat: no-repeat;
     padding-top: 11.7%;
     padding-left: 2%;
     padding-bottom: 2%;
