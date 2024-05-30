@@ -18,7 +18,9 @@ body {
 
 #first {
     color: white;
+    background-image: url("images/background-imgs/StachFilms-logo.png");
     background-color: black;
+    background-repeat: no-repeat;
     height: auto;
     background-size: cover;
     padding-top: 11.7%;
@@ -99,7 +101,10 @@ ul {
     margin-top: 20px;
 }
 
-.contacts {margin-left: 35%;}
+.contacts {
+    margin-left: auto;
+    margin-right: 1%;
+}
 
 .linkedin {
     display: inline;
