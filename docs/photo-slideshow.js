@@ -12,7 +12,7 @@ caption[4] = 'Flower'
 caption[5] = 'Icicles on Branch at Bluffs'
 caption[6] = 'Brooks Koepka'
 caption[7] = 'Leaf'
-caption[8] = 'The Columbia River at Multnomah Falls'
+caption[8] = 'The Columbia River at Multnomah Falls in Oregon'
 caption[9] = 'Rec Hall at Penn State'
 caption[10] = 'Wide Shot of Koepka and the Media'
 
@@ -46,7 +46,6 @@ function changeImg(){
     }
 
     setTimeout('changeImg()', 5 * 1000);
-
 }
 
 var opac = 0
@@ -58,7 +57,7 @@ function FadeIn(){
         setTimeout(function(){FadeIn()}, 10)
     }
     document.slide.style.opacity = opac;
-    document.querySelector('.caption').style.opacity = opac
+    document.querySelector('.caption').style.opacity = opac;
 }
 
 window.addEventListener('load', changeImg);
