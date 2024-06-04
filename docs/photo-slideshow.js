@@ -46,6 +46,20 @@ function changeImg(){
     }
 
     setTimeout('changeImg()', 5 * 1000);
+
 }
 
-window.onload = changeImg;
+var opac = 0
+
+function FadeIn(){
+
+    if (opac < 1){
+        opac += .01;
+        setTimeout(function(){FadeIn()}, 10)
+    }
+    document.slide.style.opacity = opac;
+    document.querySelector('.caption').style.opacity = opac
+}
+
+window.addEventListener('load', changeImg);
+window.addEventListener('load', FadeIn);
