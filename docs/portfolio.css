@@ -16,6 +16,8 @@ body {
     margin-top: 0;
 }
 
+.vid {padding-bottom: 5%;}
+
 #first {
     color: white;
     background-image: url("images/background-imgs/StachFilms-logo.png");
