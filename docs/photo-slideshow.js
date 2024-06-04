@@ -5,8 +5,8 @@ var caption = []
 
 //caption[0] = 'golf friends'
 caption[0] = 'Fans on the 18th Hole PGA'
-caption[1] = 'Bluff Cliff'
-caption[2] = 'Ground Runoff'
+caption[1] = 'Lake Erie Bluff Cliff'
+caption[2] = 'Ground water runoff'
 caption[3] = 'Solar Eclipse 2024'
 caption[4] = 'Flower'
 caption[5] = 'Icicles on Branch at Bluffs'
