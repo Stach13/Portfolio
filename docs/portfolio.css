@@ -16,7 +16,10 @@ body {
     margin-top: 0;
 }
 
-.vid {padding-bottom: 5%;}
+.vid {
+    padding-bottom: 5%;
+    font-size: 18px;
+}
 
 #first {
     color: white;
@@ -139,7 +142,10 @@ a:link {
     margin-bottom: 15px;
 }
 
-p {font-family: "Segoe UI", "Arial Narrow";}
+p {
+    font-family: "Segoe UI", "Arial Narrow";
+    line-height: 23px;
+}
 
 div.body {
     margin-left: 50px;
