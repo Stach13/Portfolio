@@ -1,3 +1,9 @@
+@media screen and (max-width: 500px) {
+    .anchor-box {
+        display:none;
+    }
+}
+
 .anchor-box {
     display: block;
     border-bottom-style: solid;
@@ -19,11 +25,11 @@
 }
 
 #youtube-button:hover {
-    animation: mymove 5s infinite;
+    animation: mymove 1s;
 }
 
 @keyframes mymove {
-    50% {transform: rotate(360deg);}
+    50% {transform: scale(130%);}
 }
 
 

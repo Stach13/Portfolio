@@ -2,6 +2,7 @@ body {
     background-color: #E9DCC9;
     font-family: "Segoe UI Light", "Arial Narrow";
     margin: 0;
+    width: fit-content;
 }
 
 .nav-icon {
@@ -18,7 +19,7 @@ body {
 
 .vid {
     padding-bottom: 5%;
-    font-size: 18px;
+    font-size: 1em;
 }
 
 #first {
@@ -48,44 +49,49 @@ body {
     border-bottom: solid;
 }
 
-.titles {
-    width: 100%;
-    /*border: black solid 1px;*/
-    border: none;
-    padding: 15px;
-    scale: 200%;
-    background-color: #E9DCC9;
-    outline: 0;
-    overflow:hidden;
-    background: none;
-    z-index: 1;
-    cursor: pointer;
-    -webkit-transition: all 150ms cubic-bezier(0.445, 0.050, 0.550, 0.950);
-}
+/*.titles {*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*    !*border: black solid 1px;*!*/
+/*    border: none;*/
+/*    padding: 25px;*/
+/*    scale: 100%;*/
+/*    background-color: #E9DCC9;*/
+/*    outline: 0;*/
+/*    background: none;*/
+/*    z-index: 1;*/
+/*    cursor: pointer;*/
+/*    -webkit-transition: all 150ms cubic-bezier(0.445, 0.050, 0.550, 0.950);*/
+/*}*/
 
-.titles:hover {
-    color: white;
-}
+/*.titles:hover {*/
+/*    color: white;*/
+/*}*/
 
-.titles:before {
-    content: "";
-    position: absolute;
-    background-image: url("images/background-imgs/allegheny-forest.jpg");
-    background-size: 80%;
-    background-position-y: -100px;
-    background-repeat: no-repeat;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 100%;
-    z-index: -1;
-    -webkit-transition: all 150ms cubic-bezier(0.445, 0.050, 0.550, 0.950);
-}
+/*.titles:before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    background-image: url("images/background-imgs/allegheny-forest.jpg");*/
+/*    background-size: 80%;*/
+/*    background-position-y: -100px;*/
+/*    background-repeat: no-repeat;*/
+/*    bottom: 0;*/
+/*    left: 12%;*/
+/*    right: 0;*/
+/*    top: 100%;*/
+/*    z-index: -1;*/
+/*    -webkit-transition: all 150ms cubic-bezier(0.445, 0.050, 0.550, 0.950);*/
+/*}*/
 
-.titles:hover:before {
-    top: 0;
-}
+/*.titles:hover:before {*/
+/*    top: 0;*/
+/*}*/
 
+@media all and (max-width: 500px){
+    div.vid {
+        display: block;
+    }
+}
 
 ul {
     display: flex;
@@ -216,7 +222,7 @@ h2 {
 
 section.flex {display: flex;}
 
-section.flex div { 
+section.flex div {
     flex:1;
     display:flex;
     flex-direction: column;
