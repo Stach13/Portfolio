@@ -310,7 +310,9 @@ footer {
         margin-right: 50%;
     }
 
-    div.body {margin: 3%;}
+    div.body {
+        margin-left: 15%;
+    }
 
     .heading {display: none;}
 
