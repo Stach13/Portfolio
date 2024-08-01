@@ -1,6 +1,6 @@
 body {
     background-color: #E9DCC9;
-    font-family: "Segoe UI Light", "Arial Narrow";
+    font-family: "Segoe UI Light", "Roboto Light";
     margin: 0;
     width: fit-content;
 }
@@ -143,7 +143,7 @@ a:link {
 }
 
 p {
-    font-family: "Segoe UI", "Arial Narrow";
+    font-family: "Segoe UI", "Roboto Light";
     line-height: 23px;
 }
 
@@ -305,15 +305,28 @@ footer {
 
 @media all and (max-width: 500px) {
 
-    div.body {
-        margin-left: 0;
-        margin-right: 0;
+    h2 {
+        text-align: left;
+        margin-right: 50%;
     }
+
+    div.body {margin: 3%;}
 
     .heading {display: none;}
 
     section.flex {
         display: block;
+        width: 40%;
+    }
+
+    .short-vid {
+        width: 90%;
+        height: 300px;
+    }
+
+    .long-form {
+        width: 110%;
+        height: auto;
     }
 
 }

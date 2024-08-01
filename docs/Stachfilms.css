@@ -55,7 +55,9 @@
 
 @media all and (max-width: 500px) {
 
-    .caption {text-align: left}
+    .links-slideshow {display: block}
+
+    .caption {text-align: justify}
 
     .photo {
         width: 75%;
@@ -64,7 +66,7 @@
 
     #photography {
         margin-top: 25px;
-        margin-left: 150px;}
+        margin-left: 100px;}
 
     .photo-slideshow {
         margin-left: 0;
