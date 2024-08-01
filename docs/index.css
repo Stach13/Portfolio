@@ -17,3 +17,9 @@
     line-height: 60px;
     margin-right: 10px;
 }
+
+@media all and (max-width: 500px) {
+    .anchor-box {
+        display: none;
+    }
+}

@@ -1,8 +1,4 @@
-@media screen and (max-width: 500px) {
-    .anchor-box {
-        display:none;
-    }
-}
+
 
 .anchor-box {
     display: block;
@@ -56,3 +52,24 @@
 }
 
 .caption {text-align: center;}
+
+@media all and (max-width: 500px) {
+
+    .caption {text-align: left}
+
+    .photo {
+        width: 75%;
+        height: auto;
+    }
+
+    #photography {
+        margin-top: 25px;
+        margin-left: 150px;}
+
+    .photo-slideshow {
+        margin-left: 0;
+        scale: 75%;
+    }
+
+    .anchor-box {display: none;}
+}

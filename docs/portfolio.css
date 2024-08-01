@@ -87,12 +87,6 @@ body {
 /*    top: 0;*/
 /*}*/
 
-@media all and (max-width: 500px){
-    div.vid {
-        display: block;
-    }
-}
-
 ul {
     display: flex;
     margin: 0;
@@ -307,4 +301,19 @@ figcaption {
 footer {
     border-top-style: solid;
     padding: 15px;
+}
+
+@media all and (max-width: 500px) {
+
+    div.body {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .heading {display: none;}
+
+    section.flex {
+        display: block;
+    }
+
 }
