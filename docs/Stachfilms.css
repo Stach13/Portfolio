@@ -55,7 +55,10 @@
 
 @media all and (max-width: 500px) {
 
-    .links-slideshow {display: block;}
+    .links-slideshow {
+        display: block;
+        width: 100vw;
+    }
 
     .caption {text-align: justify}
 
