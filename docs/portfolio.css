@@ -311,12 +311,15 @@ footer {
 @media all and (max-width: 500px) {
 
     /*Hamburger Menu Starts*/
+    .ham-nav {color: white}
 
     .nav {display: none;}
 
     .offscreen-menu {
-        color: white;
         background-image: url("images/background-imgs/StachFilms-logo.png");
+        background-position-x: 50%;
+        background-color: black;
+        background-repeat: no-repeat;
         width: 100%;
         height: 100vh;
         max-width: 450px;
@@ -330,6 +333,7 @@ footer {
         text-align: center;
         font-size: 3rem;
         transition: .3s ease;
+        z-index: 1;
     }
 
     .offscreen-menu.active {
@@ -347,6 +351,7 @@ footer {
         width: 50px;
         margin-right: auto;
         position: relative;
+        z-index: 1;
     }
 
     .ham-menu span {
@@ -366,19 +371,7 @@ footer {
         top: 50%;
     }
 
-    .ham-menu.active span:nth-child(1){
-        top: 75%;
-        transform: translate(50%, 150%) rotate(45deg);
-    }
 
-    .ham-menu.active span:nth-child(2){
-        opacity: 0;
-    }
-
-    .ham-menu.active span:nth-child(3){
-        top: 75%;
-        transform: translate(50%, 150%) rotate(-45deg);
-    }
     /*slideshow and rest of page*/
 
     h2 {

@@ -4,6 +4,8 @@ body {
     margin: 0;
 }
 
+.ham-nav {display: none;}
+
 .nav-icon {
     width: 15px;
     height: auto;
@@ -39,6 +41,7 @@ body {
 }
 
 ul {
+    list-style-type: none;
     display: flex;
     margin: 0;
 }
@@ -121,8 +124,7 @@ div.body {
 }
 
 .paragraph {
-    width: 400px;
-    max-width: 800px;
+    width: 100%;
     height: auto;
 }
 
@@ -169,4 +171,116 @@ section.flex div p {
 
 figcaption {
     font-family: "Segoe UI";
+}
+
+@media all and (max-width: 500px) {
+
+    /*Hamburger Menu Starts*/
+    .ham-nav {
+        display: block;
+        color: white
+    }
+
+    .nav {display: none;}
+
+    .offscreen-menu {
+        background-image: url("images/background-imgs/StachFilms-logo.png");
+        background-position-x: 50%;
+        background-color: black;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+        max-width: 450px;
+        position: fixed;
+        top: 0;
+        left: -450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 3rem;
+        transition: .3s ease;
+        z-index: 1;
+    }
+
+    .offscreen-menu.active {
+        left: 0;
+    }
+
+    .sidebar {
+        padding: 1rem;
+        display: flex;
+        background-color: black;
+    }
+
+    .ham-menu {
+        height: 50px;
+        width: 50px;
+        margin-right: auto;
+        position: relative;
+        z-index: 1;
+    }
+
+    .ham-menu span {
+        height: 5px;
+        width: 80%;
+        background-color: #E9DCC9;
+        position: absolute;
+        transform: translate( 50%, 150%);
+        transition: .3s ease;
+    }
+
+    .ham-menu span:nth-child(1){
+        top: 25%;
+    }
+
+    .ham-menu span:nth-child(3){
+        top: 50%;
+    }
+
+
+    /*slideshow and rest of page*/
+    .web {
+        padding-left: 0;
+        width: 60vw;
+    }
+
+    .erie-img {
+        margin-left: 0;
+        margin-right: 0;
+        width: 200%;
+        height: auto;
+    }
+
+    .spacy-img {
+        margin-left: 0;
+        width: 200%;
+        height: auto;
+    }
+
+    .web-box {
+        display: block;
+        width: 40%;
+        height: auto;
+    }
+
+    ul {
+        list-style-type: none;
+        display: block;
+    }
+
+    h2 {
+        text-align: left;
+        margin-right: 30%;
+    }
+
+    div.body {
+        width: 150%;
+        margin-left: 15%;
+    }
+
+    .heading {display: none;}
+
+
 }
