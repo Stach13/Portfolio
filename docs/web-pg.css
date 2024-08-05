@@ -1,6 +1,6 @@
 body {
     background-color: #E9DCC9;
-    font-family: "Segoe UI Light", "Arial Narrow";
+    font-family: "Segoe UI Light", "Roboto Thin";
     margin: 0;
 }
 
@@ -176,6 +176,11 @@ figcaption {
 @media all and (max-width: 500px) {
 
     /*Hamburger Menu Starts*/
+    ul {
+        margin-right: 15%;
+        line-height: 180%;
+    }
+
     .ham-nav {
         display: block;
         color: white

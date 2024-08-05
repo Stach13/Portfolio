@@ -4,7 +4,7 @@
 
 body {
     background-color: #E9DCC9;
-    font-family: "Segoe UI Light", "Roboto Light";
+    font-family: "Segoe UI Light", "Roboto Thin";
     margin: 0;
     width: fit-content;
 }
@@ -311,7 +311,12 @@ footer {
 @media all and (max-width: 500px) {
 
     /*Hamburger Menu Starts*/
-    .ham-nav {color: white}
+    ul {
+        margin-right: 15%;
+        line-height: 180%;
+    }
+
+    .ham-nav {color: white;}
 
     .nav {display: none;}
 
