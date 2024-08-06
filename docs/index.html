@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 
 <head>
         <title>Home</title>
@@ -8,9 +8,27 @@
         <link rel="stylesheet" type="text/css" href="portfolio.css"/>
         <link rel="stylesheet" type="text/css" href="index.css"/>
         <link rel="shortcut icon" type="image/x-icon" href="Stachfilms%20Logo%20.png"/>
+        <script type="text/javascript" src="burger.js"></script>
     </head>
  
-    <body>
+<body>
+
+    <div class="offscreen-menu">
+        <ul>
+            <li><a href="index.html" class="ham-nav">Home</a></li>
+            <li><a href="Stachfilms.html" class="ham-nav">Motion Portfolio</a></li>
+            <li><a href="projects.html" class="ham-nav">Web Projects</a></li>
+        </ul>
+    </div>
+
+    <nav class="sidebar">
+        <div class="ham-menu" onclick="Active()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
     <div class="heading" id="top">
         <h1 id="first">Home</h1>
     </div>

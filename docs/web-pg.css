@@ -178,7 +178,8 @@ figcaption {
     /*Hamburger Menu Starts*/
     ul {
         margin-right: 15%;
-        line-height: 180%;
+        line-height: 250%;
+        padding-left: 5%;
     }
 
     .ham-nav {
@@ -268,6 +269,7 @@ figcaption {
         display: block;
         width: 40%;
         height: auto;
+        padding: 60px;
     }
 
     ul {

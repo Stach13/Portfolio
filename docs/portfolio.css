@@ -313,7 +313,8 @@ footer {
     /*Hamburger Menu Starts*/
     ul {
         margin-right: 15%;
-        line-height: 180%;
+        line-height: 250%;
+        padding-left: 5%;
     }
 
     .ham-nav {color: white;}
@@ -405,5 +406,9 @@ footer {
         width: 110%;
         height: auto;
     }
+
+    footer {display: none;}
+
+    .gallery {display: block;}
 
 }

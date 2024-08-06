@@ -60,20 +60,19 @@
         width: 100vw;
     }
 
-    .caption {text-align: justify}
+    .caption {text-align: center}
 
     .photo {
-        width: 75%;
+        width: 90vw;
         height: auto;
     }
 
     #photography {
         margin-top: 25px;
-        margin-left: 100px;}
+        margin-left: 33%}
 
     .photo-slideshow {
-        margin-left: 0;
-        scale: 80%;
+        margin-left: 5%;
     }
 
     .anchor-box {display: none;}
