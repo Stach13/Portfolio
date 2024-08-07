@@ -6,100 +6,50 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="portfolio.css"/>
-        <link rel="stylesheet" type="text/css" href="index.css"/>
         <link rel="shortcut icon" type="image/x-icon" href="Stachfilms%20Logo%20.png"/>
         <script type="text/javascript" src="burger.js"></script>
     </head>
- 
+
 <body>
 
-    <div class="offscreen-menu">
-        <ul>
-            <li><a href="index.html" class="ham-nav">Home</a></li>
-            <li><a href="Stachfilms.html" class="ham-nav">Motion Portfolio</a></li>
-            <li><a href="projects.html" class="ham-nav">Web Projects</a></li>
-        </ul>
+
+<div class="offscreen-menu">
+    <ul>
+        <li><a href="index.html" class="ham-nav">Home</a></li>
+        <li><a href="Stachfilms.html" class="ham-nav">Motion Portfolio</a></li>
+        <li><a href="projects.html" class="ham-nav">Web Projects</a></li>
+    </ul>
+</div>
+
+<nav class="sidebar">
+    <div class="ham-menu" onclick="Active()">
+        <span></span>
+        <span></span>
+        <span></span>
     </div>
+</nav>
 
-    <nav class="sidebar">
-        <div class="ham-menu" onclick="Active()">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </nav>
+<div class="heading" id="top">
+    <h1 id="first">Home</h1>
+</div>
 
-    <div class="heading" id="top">
-        <h1 id="first">Home</h1>
+<nav class="nav">
+    <ul class="main-nav">
+        <li class="nav-list"><a href="index.html"><img alt="" src="images/icons/home.png" class="nav-icon"/>Home</a></li>
+        <li class="nav-list"><a href="Stachfilms.html"><img alt="" src="images/icons/portfolio.png" class="nav-icon"/>Motion Portfolio</a></li>
+        <li class="nav-list"><a href="projects.html"><img alt="" src="images/icons/websites.png" class="nav-icon"/>Web Projects</a></li>
+    </ul>
+    <ul class="contacts">
+        <li class="list-contact"><a href="mailto:noah13stachera@gmail.com"><button class="contact-me">Contact Me</button></a></li>
+        <li class="linkedin"><a href="https://www.linkedin.com/in/noah-stachera-93369424a/"><img src="images/icons/linkedin.png" alt="" width="25" height="auto"/></a></li>
+    </ul>
+</nav>
+<div class="body">
+
+    <h2>What is StachFilms?</h2>
+    <div class="reel">
+        <iframe class="special-needs-iframe" width="560" height="315" src="https://www.youtube.com/embed/sPNjukjwAug?si=UWMzcAbyjfKf-77F" title="YouTube video player" allowfullscreen></iframe>
+        <p class="bio">A video production and motion design service delivering professional quality videos.</p>
     </div>
-
-    <nav class="nav">
-        <ul class="main-nav">
-            <li class="nav-list"><a href="index.html"><img alt="" src="images/icons/home.png" class="nav-icon"/>Home</a></li>
-            <li class="nav-list"><a href="Stachfilms.html"><img alt="" src="images/icons/portfolio.png" class="nav-icon"/>Motion Portfolio</a></li>
-            <li class="nav-list"><a href="projects.html"><img alt="" src="images/icons/websites.png" class="nav-icon"/>Web Projects</a></li>
-        </ul>
-        <ul class="contacts">
-            <li class="list-contact"><a href="mailto:noah13stachera@gmail.com"><button class="contact-me">Contact Me</button></a></li>
-            <li class="linkedin"><a href="https://www.linkedin.com/in/noah-stachera-93369424a/"><img src="images/icons/linkedin.png" alt="" width="25" height="auto"/></a></li>
-        </ul>
-    </nav>
-    <div class="home-body">
-        <div class="anchor-box">
-            <h3 class="page-links-header">Page Links</h3>
-            <ol>
-                <li class="anchor-list"><a href="#About-me">About Me</a></li>
-                <li class="anchor-list"><a href="#Gallery">Photo Gallery - Behind the Scenes</a></li>
-            </ol>
-        </div>
-        <div class="about-me">
-            <div>
-            <h2 class="web"><a href="#top" id="About-me"><u>About Me</u></a></h2>
-
-                <p class="about-me-pg">Hello! My name is Noah, and this is my Web Portfolio. I'm a <u>passionate</u>, <u>determined</u>, and <u>charismatic</u> content creator, who likes turning visions
-            into reality. I'm obsessed with any form of multimedia that contains motion, as well as still motion (like photography). I'm also skillful in many aspects of web development, and UX design. I'm looking forward to continue my
-            path in video creation, motion graphics, animation, and other media. I want to be clear that everything I created was used with creative software (like Adobe) and coding tools, I'm strictly against the use of AI for any creative design.
-            Hoping it will lead to greater and better things along the way!</p>
-            </div>
-        </div>
-    </div>
-        <div>
-            <h2><a href="#top" id="Gallery">Behind the Scenes</a></h2>
-            <section class="gallery">
-                <figure class="scene-box">
-                    <img class="gallery" src="wintergreen_media.jpg"
-                        alt="McGarvey Commons in RUB, Behind the Scenes"/>
-                    <figcaption>Wintergreen Media at a Behrend Athletics Banquet in
-                        2020.</figcaption>
-                </figure>
-                <figure class="scene-box">
-                    <img  class="gallery" src="behind_the_scenes.jpg" alt="Picture in Kochel 69, Behind the Scenes"/>
-                    <figcaption>My film Blissful in the green screen room.</figcaption>
-                </figure>
-                <figure class="scene-box">
-                    <img  class="gallery" src="images/filming-turtle.jpg" alt="catail"/>
-                    <figcaption>Me filming a red eared slider turtle at Pennsylvania Sea Grant</figcaption>
-                </figure>
-            </section>
-                
-            <section class="gallery">
-                <figure class="scene-box">
-                    <img src="images/oddity_focus.jpg" alt="Focus Assist for Oddity Productions" class="insta"/>
-                    <figcaption>Me on the left assisting with the focus on a RED Camera.</figcaption>
-                </figure>
-                <figure class="scene-box">
-                    <img src="images/filming-catail.jpg" class="insta" alt=""/>
-                    <figcaption>Me shooting Narrow-leaved Cattail at Pennsylvania Sea Grant</figcaption>
-                </figure>
-                <figure class="scene-box">
-                    <img class="gallery" src="images/lynne_beaty_BTS.jpg" alt=""/>
-                    <figcaption>Video shoot at a researcher's office.</figcaption>
-                </figure>
-            </section>
-
-            <footer>
-                <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br/>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-            </footer>
-        </div>
-    </body>
-</html>
+</div>
+</body>

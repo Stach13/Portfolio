@@ -51,6 +51,7 @@ body {
 .nav {
     display: flex;
     border-bottom: solid;
+    width: 98.6vw;
 }
 
 /*.titles {*/
@@ -227,9 +228,8 @@ section.flex div {
     flex-direction: column;
 }
 
-iframe {
-    border: none;
-}
+iframe {border: none;}
+
 section.flex div p {
     width:90%;
     font-size: smaller;
@@ -247,51 +247,6 @@ section.flex div p {
     margin-left: 7px;
 }
 
-section.gallery {
-    display: flex;
-    padding: 5%;
-}
-
-img.insta {
-    transition: transform .5s;
-    max-width: 250px;
-    width: 100%;
-    margin: 25px 10px;
-}
-
-img[src="wintergreen_media.jpg"] {
-    transition: transform .5s;
-    float: right;
-    max-width: 250px;
-    width: 100%;
-    margin: 25px 10px;
-}
-
-img[src="behind_the_scenes.jpg"] {
-    transition: transform .5s;
-    max-width: 250px;
-    width: 100%;
-    margin: 25px 10px;
-}
-
-img[src="images/filming-turtle.jpg"] {
-    transition: transform .5s;
-    max-width: 400px;
-    width: 125%;
-    margin: 25px 10px;
-}
-img[src="images/lynne_beaty_BTS.jpg"]{
-    transition: transform .5s;
-    max-width: 400px;
-    width: 150%;
-    height: 60%;
-    margin: 25px 10px;
-}
-
-img.gallery:hover{transform: scale(1.8);}
-
-img.insta:hover {transform: scale(1.8);}
-
 .scene-box {
     border-left: 2px solid black;
     padding: 2%;
@@ -301,11 +256,6 @@ img.insta:hover {transform: scale(1.8);}
 figcaption {
     font-family: "Segoe UI";
     text-align: center;
-}
-
-footer {
-    border-top-style: solid;
-    padding: 15px;
 }
 
 @media all and (max-width: 500px) {
@@ -350,6 +300,7 @@ footer {
         padding: 1rem;
         display: flex;
         background-color: black;
+        width: 150%;
     }
 
     .ham-menu {
@@ -385,6 +336,13 @@ footer {
         margin-right: 30%;
     }
 
+    .special-needs-iframe {
+        width: 50%;
+        height: 15%;
+    }
+
+    .bio {width: 50%}
+
     div.body {
         width: 150%;
         margin-left: 15%;
@@ -407,8 +365,5 @@ footer {
         height: auto;
     }
 
-    footer {display: none;}
-
-    .gallery {display: block;}
 
 }
