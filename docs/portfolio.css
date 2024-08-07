@@ -149,7 +149,7 @@ a:link {
 }
 
 p {
-    font-family: "Segoe UI", "Roboto Light";
+    font-family: "Segoe UI", "Roboto Thin";
     line-height: 23px;
 }
 
@@ -184,30 +184,9 @@ div.body {
     height: auto;
 }
 
-.spacy-img {
-    margin-left: 100px;
-}
+.spacy-img {margin-left: 100px;}
 
 .spacey-pg {line-height: 25px;}
-
-.about-me {
-    border-right: 2px solid black;
-    background-image: linear-gradient(to right, grey, #E9DCC9, #E9DCC9 75%);
-    line-height: 1.7;
-    padding: 2%;
-    width: 600px;
-    max-width: 1600px;
-    height: auto;
-    margin-left: 10%;
-    margin-top: 100px;
-    display: flex;
-}
-
-.about-me-pg {
-    margin-left: 10%;
-    width: 80%;
-    height: auto;
-}
 
 .erie-img {
     margin-left: 100px;
@@ -250,12 +229,32 @@ section.flex div p {
 .scene-box {
     border-left: 2px solid black;
     padding: 2%;
-
 }
 
 figcaption {
-    font-family: "Segoe UI";
+    font-family: "Segoe UI", "Roboto Thin";
     text-align: center;
+}
+
+.special-needs-iframe {
+    width: 560px;
+    height: 315px;
+}
+
+.reel {
+    display: flex;
+    padding-bottom: 10%;
+}
+
+.bio {
+    margin: 25px;
+    width: 40%;
+}
+
+.reel-head {
+    background-color: black;
+    padding-right: 25px;
+    color: white;
 }
 
 @media all and (max-width: 500px) {
@@ -341,7 +340,10 @@ figcaption {
         height: 15%;
     }
 
-    .bio {width: 50%}
+    .bio {
+        width: 50%;
+        margin-left: 0;
+    }
 
     div.body {
         width: 150%;
@@ -365,5 +367,5 @@ figcaption {
         height: auto;
     }
 
-
+    .reel {display: block;}
 }
