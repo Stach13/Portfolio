@@ -51,7 +51,6 @@ body {
 .nav {
     display: flex;
     border-bottom: solid;
-    width: 98.6vw;
 }
 
 /*.titles {*/
@@ -214,14 +213,6 @@ section.flex div p {
     font-size: smaller;
 }
 
-.resume {
-    width: 50%;
-    height: 1000px;
-    padding-top: 30px;
-    border: none;
-    margin-left: 370px;
-}
-
 .anchor-list:hover {
     margin-left: 7px;
 }
@@ -249,6 +240,7 @@ figcaption {
 .bio {
     margin: 25px;
     width: 40%;
+    line-height: 35px;
 }
 
 .reel-head {
@@ -256,6 +248,18 @@ figcaption {
     padding-right: 25px;
     color: white;
 }
+
+.profile-img {
+    border-radius: 25px;
+    width: 50vw;
+    height: 60vh;
+}
+
+#boats-n-hoes {
+    width: 90%;
+    line-height: 35px;}
+
+.bio-block {display: block;}
 
 @media all and (max-width: 500px) {
 
@@ -330,6 +334,13 @@ figcaption {
 
     /*slideshow and rest of page*/
 
+    .profile-img{
+        width: 60vw;
+        height: auto;
+        margin-top: 5%;
+        margin-left: 0;
+    }
+
     h2 {
         text-align: left;
         margin-right: 30%;
@@ -368,4 +379,6 @@ figcaption {
     }
 
     .reel {display: block;}
+
+    #boats-n-hoes {width: 50%}
 }
