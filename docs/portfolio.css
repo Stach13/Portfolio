@@ -374,7 +374,7 @@ figcaption {
     }
 
     .long-form {
-        width: fit-content;
+        width: 116%;
         height: auto;
     }
 
