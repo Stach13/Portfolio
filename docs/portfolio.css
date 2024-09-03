@@ -270,7 +270,7 @@ figcaption {
         padding-left: 5%;
     }
 
-    .ham-nav {color: white;}
+    .ham-nav {color: white; !important;}
 
     .nav {display: none;}
 
