@@ -4,6 +4,8 @@ body {
     margin: 0;
 }
 
+.offscreen-menu {display: none}
+
 .ham-nav {display: none;}
 
 .nav-icon {
@@ -232,6 +234,13 @@ figcaption {
 
     .ham-menu span:nth-child(3){
         top: 50%;
+    }
+
+    .contact-me {scale: 200%;}
+
+    .contact-me:hover {
+        background-color: white;
+        color: black;
     }
 
 

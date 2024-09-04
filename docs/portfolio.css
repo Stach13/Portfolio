@@ -331,6 +331,13 @@ figcaption {
         top: 50%;
     }
 
+    .contact-me {scale: 200%;}
+
+    .contact-me:hover {
+        background-color: white;
+        color: black;
+    }
+
 
     /*slideshow and rest of page*/
 
