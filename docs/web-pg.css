@@ -279,6 +279,7 @@ figcaption {
         margin-right: 0;
         width: 200%;
         height: auto;
+        display: none;
     }
 
     .spacy-img {
@@ -288,6 +289,14 @@ figcaption {
     }
 
     .web-box {
+        background-color: #d6b575;
+        background-image: none;
+        width: 40%;
+        height: auto;
+        padding: 60px;
+    }
+
+    .erie-insur {
         display: block;
         width: 40%;
         height: auto;
@@ -310,6 +319,4 @@ figcaption {
     }
 
     .heading {display: none;}
-
-
 }
