@@ -106,16 +106,37 @@ div.body {
 }
 
 .web {
-    float: left;
     word-spacing: 8px;
     width: 500px;
     max-width: 1000px;
     margin-right: 50px;
 }
 
+u {color: white;}
+
 .web-box {
     border-radius: 25px;
+    background-image: url("images/fellowships.jpg");
+    background-size: 120%;
+    background-repeat: no-repeat;
+    width: 500px;
+    max-width: 1000px;
+    height: 400px;
+    margin-left: 60px;
+    margin-top: 50px;
+    padding: 80px;
+}
+
+.web-box:hover {
+    background-size: 130%;
+    transition: 0.3s ease-in-out;
+}
+
+.erie-insur {
+    border-radius: 25px;
     background-color: #d6b575;
+    background-size: 110%;
+    background-repeat: no-repeat;
     width: 500px;
     max-width: 1000px;
     height: 400px;
@@ -134,7 +155,10 @@ div.body {
     margin-left: 100px;
 }
 
-.spacey-pg {line-height: 25px;}
+.spacey-pg {
+    line-height: 25px;
+    color: white;
+}
 
 .erie-img {
     margin-left: 100px;
