@@ -136,7 +136,9 @@ ul {
     transition: .5s;
 }
 
-a:link {
+a.ham-nav:link { color: white; }
+
+a {
     text-decoration: none;
     color: black;
 }
