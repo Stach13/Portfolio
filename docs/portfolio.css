@@ -138,9 +138,21 @@ ul {
 
 a.ham-nav:link { color: white; }
 
+#Shorts {color: white;}
+
 a {
     text-decoration: none;
     color: black;
+}
+
+.short-desc {color: white;}
+
+.metal-back {
+    margin: 0;
+    background-image: url("images/background-imgs/metal-pattern-5-0-metal-textures3_thumb.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .nav-list:hover {
@@ -152,11 +164,6 @@ a {
 p {
     font-family: "Segoe UI", "Roboto Thin";
     line-height: 23px;
-}
-
-div.body {
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 .web {
@@ -200,7 +207,11 @@ h2 {
     padding: 50px;
 }
 
-section.flex {display: flex;}
+section.flex {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+}
 
 section.flex div {
     flex:1;
@@ -263,6 +274,13 @@ figcaption {
 
 .bio-block {display: block;}
 
+.index-body {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+
 @media all and (max-width: 500px) {
 
     /*Hamburger Menu Starts*/
@@ -297,9 +315,7 @@ figcaption {
         z-index: 1;
     }
 
-    .offscreen-menu.active {
-        left: 0;
-    }
+    .offscreen-menu.active {left: 0;}
 
     .sidebar {
         padding: 1rem;
@@ -365,16 +381,20 @@ figcaption {
         margin-left: 0;
     }
 
-    div.body {
+    div.body {width: 150%;}
+
+    .index-body {
         width: 150%;
-        margin-left: 15%;
+        margin-left: 10%;
     }
+
 
     .heading {display: none;}
 
     section.flex {
         display: block;
         width: 40%;
+        margin-right: 50%;
     }
 
     .short-vid {
