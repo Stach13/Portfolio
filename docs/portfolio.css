@@ -42,7 +42,11 @@ body {
     margin-top: 0;
 }
 
-
+.photo-slideshow {
+    background-color: #222222;
+    border-radius: 15px;
+    padding: 10px;
+}
 
 #second {
     margin-top: 10%;
@@ -241,6 +245,11 @@ section.flex div p {
 figcaption {
     font-family: "Segoe UI", "Roboto Thin";
     text-align: center;
+}
+
+.caption {
+    color: white;
+    padding: 15px;
 }
 
 .special-needs-iframe {

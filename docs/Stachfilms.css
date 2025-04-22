@@ -38,7 +38,7 @@
 
 #photography {
     margin-left: 53%;
-    margin-bottom: 8%;
+    margin-bottom: 4%;
     margin-top: 5%;
 }
 
@@ -49,6 +49,7 @@
 .photo {
     width: 620px;
     height: auto;
+    scale: 95%;
 }
 
 .caption {text-align: center;}
@@ -60,7 +61,10 @@
         width: 100vw;
     }
 
-    .caption {text-align: center}
+    .caption {
+        text-align: center;
+        color: black;
+    }
 
     .photo {
         width: 90vw;
@@ -73,7 +77,9 @@
 
     .photo-slideshow {
         margin-left: 5%;
+        background-color: #E9DCC9;
     }
 
     .anchor-box {display: none;}
+
 }
