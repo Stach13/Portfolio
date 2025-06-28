@@ -5,8 +5,8 @@
 .announcement-bar {
     background-color: black;
     height: 30px;
-    width: 79.5%;
-    margin-top: 14.8%;
+    width: 100%;
+    margin-top: 19%;
     overflow: hidden;
     white-space: nowrap;
 }
