@@ -2,6 +2,33 @@
 
 .main-nav {display: flex}
 
+.announcement-bar {
+    background-color: black;
+    height: 30px;
+    width: 79.5%;
+    margin-top: 14.8%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.second {
+    color: white;
+    height: 5%;
+    width: 100%;
+    display: inline-block;
+    animation: scroll-left 50s linear infinite;
+    word-spacing: 3px;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-110%);
+    }
+}
+
 body {
     background-color: #E9DCC9;
     font-family: "Segoe UI Light", "Roboto Thin";
@@ -19,6 +46,7 @@ body {
     border-bottom: solid;
     display: flex;
     margin-top: 0;
+
 }
 
 .vid {
@@ -296,6 +324,9 @@ figcaption {
 @media all and (max-width: 500px) {
 
     /*Hamburger Menu Starts*/
+
+    .announcement-bar {display: none;}
+
     ul {
         margin-right: 15%;
         line-height: 250%;
