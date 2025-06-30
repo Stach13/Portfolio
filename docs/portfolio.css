@@ -6,15 +6,15 @@
     background-color: black;
     height: 30px;
     width: 100%;
-    margin-top: 19%;
     overflow: hidden;
     white-space: nowrap;
+    position: absolute;
+    bottom: 0;
 }
 
 .second {
     color: white;
     height: 5%;
-    width: 100%;
     display: inline-block;
     animation: scroll-left 50s linear infinite;
     word-spacing: 3px;
@@ -46,7 +46,7 @@ body {
     border-bottom: solid;
     display: flex;
     margin-top: 0;
-
+    position: relative;
 }
 
 .vid {
@@ -61,24 +61,20 @@ body {
     background-repeat: no-repeat;
     height: auto;
     background-size: cover;
-    padding-top: 11.7%;
+    padding-top: 148px;
     padding-left: 2%;
     padding-bottom: 2%;
     padding-right: 1%;
     margin-bottom: 0;
     margin-right: 0;
     margin-top: 0;
+    z-index: 1;
 }
 
 .photo-slideshow {
     background-color: #222222;
     border-radius: 15px;
     padding: 10px;
-}
-
-#second {
-    margin-top: 10%;
-    margin-left: 50%;
 }
 
 .nav {
