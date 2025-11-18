@@ -4,7 +4,8 @@
     display: block;
     border-bottom-style: solid;
     border-right-style: solid;
-    border-color: black;
+    border-color: rgb(34, 34, 34);
+    border-width: 12px;
     width: 300px;
     min-width: 300px;
     height: 600px;

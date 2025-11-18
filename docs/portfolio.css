@@ -79,7 +79,8 @@ body {
 
 .nav {
     display: flex;
-    border-bottom: solid;
+    border-bottom: solid #222222;
+    border-width: 5px;
 }
 
 /*.titles {*/
