@@ -307,7 +307,6 @@ figcaption {
 }
 
 .profile-img {
-    border-radius: 25px;
     width: 35vw;
     height: 60vh;
 }
@@ -411,6 +410,14 @@ figcaption {
         height: auto;
         margin-top: 5%;
         margin-left: 0;
+    }
+
+    .italics {
+        font-style: italic;
+        font-size: 13px;
+        display: block;
+        padding: 20px;
+        margin-right: 50%;
     }
 
     h2 {
