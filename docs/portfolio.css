@@ -71,6 +71,13 @@ body {
     z-index: 1;
 }
 
+.italics {
+    font-style: italic;
+    font-size: 13px;
+    display: block;
+    padding: 20px;
+}
+
 .photo-slideshow {
     background-color: #222222;
     border-radius: 15px;
@@ -301,7 +308,7 @@ figcaption {
 
 .profile-img {
     border-radius: 25px;
-    width: 50vw;
+    width: 35vw;
     height: 60vh;
 }
 

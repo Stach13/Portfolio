@@ -39,7 +39,8 @@ body {
 .nav {
     display: flex;
     margin: 0;
-    border-bottom: solid;
+    border-bottom: solid #222222;
+    border-width: 5px;
 }
 
 ul {
