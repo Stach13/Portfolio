@@ -322,7 +322,10 @@ figcaption {
     margin-right: 5%;
 }
 
-
+.graph-img {
+    margin-top: 20vh;
+    margin-left: 5%;
+}
 
 @media all and (max-width: 500px) {
 
