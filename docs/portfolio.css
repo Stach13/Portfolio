@@ -323,8 +323,40 @@ figcaption {
 }
 
 .graph-img {
+    display: block;
     margin-top: 20vh;
     margin-left: 5%;
+}
+
+.img-text-hover {
+    position: relative;
+    width: fit-content;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity .5s ease;
+    justify-content: center;
+}
+
+.img-text-hover:hover .overlay {
+    opacity: 1; /* Makes the overlay visible on hover */
+    background-color: grey;
+
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
 }
 
 @media all and (max-width: 500px) {
