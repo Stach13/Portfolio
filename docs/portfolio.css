@@ -422,6 +422,11 @@ figcaption {
         z-index: 1;
     }
 
+    #design-align {
+        width: 40%;
+        height: auto;
+    }
+
     .ham-menu span {
         height: 5px;
         width: 80%;
