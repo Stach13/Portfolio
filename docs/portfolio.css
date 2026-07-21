@@ -33,7 +33,7 @@ body {
     background-color: #E9DCC9;
     font-family: "Segoe UI Light", "Roboto Thin";
     margin: 0;
-    width: fit-content;
+    width: auto;
 }
 
 .nav-icon {
@@ -53,6 +53,15 @@ body {
     padding-bottom: 5%;
     font-size: 1em;
 }
+
+.graphic-cont {
+    padding: 3%;
+    box-shadow: #222222 5px 5px 15px;
+}
+
+.disclaimer {text-align: center;}
+
+.white-text {color: white;}
 
 #first {
     color: white;
