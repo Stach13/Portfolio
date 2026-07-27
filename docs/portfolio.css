@@ -61,7 +61,10 @@ body {
 
 .disclaimer {text-align: center;}
 
-.white-text {color: white;}
+.white-text {
+    color: white;
+    padding: 2%;
+}
 
 #first {
     color: white;
@@ -168,15 +171,15 @@ ul {
 }
 
 .contact-me {
-    border: none;
     padding: 10px;
     border-radius: 20px;
+    border: 3px solid black;
 }
 
 .contact-me:hover {
-    border: none;
     padding: 10px;
     border-radius: 20px;
+    border: 3px solid black;
     background-color: black;
     color: white;
     transition: .5s;
