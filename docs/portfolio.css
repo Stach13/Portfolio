@@ -61,10 +61,7 @@ body {
 
 .disclaimer {text-align: center;}
 
-.white-text {
-    color: white;
-    padding: 2%;
-}
+.white-text {color: white;}
 
 #first {
     color: white;
@@ -425,10 +422,9 @@ figcaption {
         z-index: 1;
     }
 
-    #design-align {
-        width: 40%;
-        height: auto;
-    }
+    .mobile-width {
+        width: 200%;
+        height: auto;}
 
     .ham-menu span {
         height: 5px;
@@ -499,7 +495,6 @@ figcaption {
 
     section.flex {
         display: block;
-        width: 40%;
         margin-right: 50%;
     }
 
