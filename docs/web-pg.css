@@ -196,20 +196,6 @@ u {color: white;}
     transition: 0.3s ease-in-out;
 }
 
-.erie-insur {
-    border-radius: 25px;
-    background-color: #d6b575;
-    background-size: 110%;
-    background-repeat: no-repeat;
-    width: 500px;
-    max-width: 1000px;
-    height: 400px;
-    margin-left: 60px;
-    margin-top: 50px;
-    padding: 80px;
-    display: flex;
-}
-
 .paragraph {
     width: 100%;
     height: auto;
