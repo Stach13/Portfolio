@@ -298,6 +298,11 @@ figcaption {
     height: 315px;
 }
 
+.reel-bio {
+    display: flex;
+
+}
+
 .reel {
     display: flex;
     padding-bottom: 10%;
@@ -509,6 +514,8 @@ figcaption {
     }
 
     .reel {display: block;}
+
+    .reel-bio {display: block;}
 
     #boats-n-hoes {width: 50%}
 }
