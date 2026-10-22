@@ -320,6 +320,19 @@ figcaption {
     color: white;
 }
 
+@keyframes slideInLeft {
+    0% {
+        /* Starts completely off-screen to the left */
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        /* Moves back to its original layout position */
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 .profile-img {
     width: 35vw;
     height: 60vh;
