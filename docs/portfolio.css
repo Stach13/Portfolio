@@ -432,6 +432,10 @@ figcaption {
         width: 150%;
     }
 
+    #profile {
+        margin-top: 5%;
+    }
+
     .ham-menu {
         height: 50px;
         width: 50px;
